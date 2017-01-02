@@ -38,14 +38,14 @@ $ java Client client4 8000
 
 The following are example commands for the features available, 
 
-broadcast message "Hi all" 
+$ broadcast message "Hi all" 
 
-broadcast file "testfile.txt" 
+$ broadcast file "testfile.txt" 
 
-unicast message "Hello client2" client2
+$ unicast message "Hello client2" client2
 
-unicast file "testfile.txt" client2
+$ unicast file "testfile.txt" client2
 
-blockcast message "Hi all except client2" client2
+$ blockcast message "Hi all except client2" client2
 
-blockcast file "testfile.txt" client2
+$ blockcast file "testfile.txt" client2
