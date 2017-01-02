@@ -36,6 +36,8 @@ $ java Client client3 8000
 
 $ java Client client4 8000
 
+The following are the features available, 
+
 broadcast message "Hi all" 
 
 broadcast file "testfile.txt" 
